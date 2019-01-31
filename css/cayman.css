@@ -190,3 +190,7 @@ a:hover { text-decoration: underline; }
 .site-footer-owner { display: block; font-weight: bold; }
 
 .site-footer-credits { color: #819198; }
+.main-content tbody tr:nth-child(1) { background-color: lightgray; border-bottom: 2px solid black; border-top: 2px solid black;}
+.main-content tbody tr:nth-child(5) { background-color: lightgray; border-bottom: 2px solid black; border-top: 2px solid black;}
+.main-content tbody tr:nth-child(9) { background-color: lightgray; border-bottom: 2px solid black; border-top: 2px solid black;}
+.main-content tbody tr:nth-child(12) { background-color: lightgray; border-bottom: 2px solid black; border-top: 2px solid black;}
