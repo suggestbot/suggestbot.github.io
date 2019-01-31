@@ -1,0 +1,19 @@
+# Setup
+title:        SuggestBot
+tagline:      Source technologies for context-based smart interactions
+baseurl:      ""
+url:          "http://suggestbot.github.io/"
+paginate:     1
+locale:       "en"
+
+# About/contact
+author:
+  name:       KAIST SuggestBot
+  url:        "http://suggestbot.github.io/"
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
