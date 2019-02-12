@@ -7,6 +7,14 @@ title: {{ site.name }}
 
 SuggestBot is a software component that identifies the user's needs and suggests an action, which is the key aspect of "Smart Interaction". Two key elements of SuggestBot are "context awareness" and "real-time interaction".
 
+### Support
+
+This research was supported by Next-Generation Information Computing Development Program through the National Research Foundation of Korea(NRF) funded by the Ministry of Science, ICT (2017M3C4A7065955)
+
+이 연구는 정부(과학기술정보통신부)의 재원으로 한국연구재단-차세대정보・컴퓨팅기술개발사업의 지원을 받아 수행된 연구임(2017M3C4A7065955).
+
+Period : 2017.09.01 - 2019.05.31
+
 ## Goals
 1. Development of a context inference engine to support SuggestBot's context awareness in various wearable computing scenarios
 2. Building labeled big data for researching context reasoning for context inference engine design
