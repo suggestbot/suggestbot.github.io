@@ -1,0 +1,128 @@
+---
+layout: default
+title: {{ site.name }}
+---
+
+<h1>What is SuggestBot?</h1>
+<p>SuggestBot is a software component that identifies the user's needs and suggests an action, which is the key aspect of "Smart Interaction". Two key elements of SuggestBot are "context awareness" and "real-time interaction".</p>
+
+<h3>Support</h3>
+<p style="font-size:0.9rem">This research was supported by Next-Generation Information Computing Development Program through the National Research Foundation of Korea(NRF) funded by the Ministry of Science, ICT (2017M3C4A7065955)</p>
+<p style="font-size:0.9rem">이 연구는 정부(과학기술정보통신부)의 재원으로 한국연구재단-차세대정보・컴퓨팅기술개발사업의 지원을 받아 수행된 연구임(2017M3C4A7065955).</p>
+<p style="font-size:0.9rem">Period : 2017.09.01 - 2019.05.31</p>
+
+<h2>Goals</h2>
+<ol>
+  <li>Development of a context inference engine to support SuggestBot's context awareness in various wearable computing scenarios</li>
+  <li>Building labeled big data for researching context reasoning for context inference engine design</li>
+  <li>Development of SuggestBot UI and service software subsystem to guarantee the real time requirement of SuggestBot</li>
+</ol>
+
+<h2>Contents</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan=2 style="background-color:#e9ebec"><strong>DataSet</strong></td>
+    </tr>
+    <tr>
+      <td style="font-size:1rem"><strong>A dataset for the analysis of interest and affective state in exhibition visiting scenario</strong></td>
+      <td rowspan=2 style="text-align: center">예정</td>
+    </tr>
+    <tr>
+      <td style="font-size:0.9rem">We present a multimodal dataset for the analysis of human interest and affective states. Physiological, motion, and video signals of 100 participants were recorded as each visited the exhibition room for at least 20 minutes.</td>
+    </tr>
+    <tr>
+      <td style="font-size:1rem"><strong>A dataset for emotion analysis in debate scenario</strong></td>
+      <td rowspan=2 style="text-align: center">예정</td>
+    </tr>
+    <tr>
+      <td style="font-size:0.9rem">We present a multimodal dataset for the analysis of human emotion. EEG, physiological, motion, and video signals of 30 participants were recorded as each participated in the debate for at least 15 minutes.</td>
+    </tr>
+    <tr>
+      <td style="font-size:1rem"><strong>Online discussion and evidence dataset</strong></td>
+      <td rowspan=2 style="text-align: center">예정</td>
+    </tr>
+    <tr>
+      <td style="font-size:0.9rem">From Internet Argument Corpus (IAC) 2.0 dataset, this dataset covers 10,000 posts containing claims that can be verified with facts. The dataset contains annotations on verifiable sentences for each post and factual information that supports or refutes each annotation.</td>
+    </tr>
+    
+    <tr>
+      <td colspan=2 style="background-color:#e9ebec"><strong>Data Collect Program</strong></td>
+    </tr>
+    <tr>
+      <td style="font-size:1rem"><a href="https://github.com/Kaist-ICLab"><strong>Sensor and interactive data logger for mobile and wearable devices</strong></a></td>
+      <td rowspan=2 style="text-align: center"></td>
+    </tr>
+    <tr>
+      <td style="font-size:0.9rem">The application collects sensor and interactive data from mobile and wearable devices, store the data in the device, and sends to predefined servers.</td>
+    </tr>
+    <tr>
+      <td style="font-size:1rem"><a href="https://github.com/Kaist-ICLab"><strong>Heart rate information logger based on Ant+ protocol</strong></a></td>
+      <td rowspan=2 style="text-align: center"></td>
+    </tr>
+    <tr>
+      <td style="font-size:0.9rem">The application detects and collects heart rate information via BLE (Bluetooth Low Energy) connection based on ANT+ protocol. ANT+ is a Wireless Personal Network protocol.</td>
+    </tr>
+    <tr>
+      <td style="font-size:1rem"><a href="https://github.com/Kaist-ICLab"><strong>Data logger library/application for Android devices</strong></a></td>
+      <td rowspan=2 style="text-align: center"></td>
+    </tr>
+    <tr>
+      <td style="font-size:0.9rem">This is a simple, but powerful logger that allows Android apps to log both to the internal log, as well as an external file (i.e. in sqlite format). This can also be used as a stand-alone application.</td>
+    </tr>
+
+    <tr>
+      <td colspan=2 style="background-color:#e9ebec"><strong>Deep Learning Module</strong></td>
+    </tr>
+    <tr>
+      <td style="font-size:1rem"><strong>Denoising Convolutional and Recurrent Neural Network for Multimodal Emotion Recognition</strong></td>
+      <td rowspan=2 style="text-align: center">예정</td>
+    </tr>
+    <tr>
+      <td style="font-size:0.9rem">This program incorporates multiple heterogeneous sensor data to recognize human emotion. The main machine learning model of the program pipelines convolutional neural networks and a recurrent neural network to effectively extract features from multimodal sensor data and recognize human emotion using the extracted features. The denoising gated recurrent unit is applied to the recurrent part to remove noise and handle missing values in sensor data.</td>
+    </tr>
+    <tr>
+      <td style="font-size:1rem"><strong>Search Engine for Claim-supporting Content with Deep Learning</strong></td>
+      <td rowspan=2 style="text-align: center">예정</td>
+    </tr>
+    <tr>
+      <td style="font-size:0.9rem">We build a module that identifies the contents that can support(e.g. related, strengthen) a given claim. We use Wikipedia and news articles as main resources.</td>
+    </tr>
+
+    <tr>
+      <td colspan=2 style="background-color:#e9ebec"><strong>Platform System</strong></td>
+    </tr>
+    <tr>
+      <td style="font-size:1rem"><strong>Denoising Convolutional and Recurrent Neural Network for Multimodal Emotion Recognition</strong></td>
+      <td rowspan=2 style="text-align: center">예정</td>
+    </tr>
+    <tr>
+      <td style="font-size:0.9rem">This program incorporates multiple heterogeneous sensor data to recognize human emotion. The main machine learning model of the program pipelines convolutional neural networks and a recurrent neural network to effectively extract features from multimodal sensor data and recognize human emotion using the extracted features. The denoising gated recurrent unit is applied to the recurrent part to remove noise and handle missing values in sensor data.</td>
+    </tr>
+    <tr>
+      <td style="font-size:1rem"><strong>Secure deep learning inference library</strong></td>
+      <td rowspan=2 style="text-align: center">예정</td>
+    </tr>
+    <tr>
+      <td style="font-size:0.9rem">A library for a cloud-driven solution to protect user privacy while taking benefit from cloud resources to run DNN models for high inference accuracy. It leverages Intel SGX enclaves to safely execute a whole inference pipeline.This library includes a modified Caffe framework and 3rd-party libraries ported into SGX enclave.</td>
+    </tr>
+    <tr>
+      <td style="font-size:1rem"><a href="https://gitlab.com/spchoi/deepschedulerexperiment"><strong>TFLite based benchmark program for multiple DL model running situation on mobile</strong></a></td>
+      <td rowspan=2 style="text-align: center"></td>
+    </tr>
+    <tr>
+      <td style="font-size:0.9rem">The benchmark tool measures DL model execution performance (e.g., latency) while multiple CNN models running simultaneousl. This program has been confirmed to work on a Pixel 2 device with Android 8.0 or higher. The benchmark currently offers two popular DL models, MobileNet_V1(quantized) and Inception_V3(quantized), which are officially supported by TensorFlow Lite.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Keywords</h3>
+<blockquote>
+  <p><em>Smart Interaction</em>, <em>SuggestBot</em>, <em>Context Big Data</em>, <em>Context Deep Learning</em>, <em>Wearable Computing Platform</em></p>
+</blockquote>
